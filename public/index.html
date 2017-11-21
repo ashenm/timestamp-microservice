@@ -3,30 +3,22 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <meta name="description" content="JSON parameterised time in unix and natural language" />
+  <meta name="description" content="Get parameterised time in unix and natural language" />
   <meta name="keywords" content="ashen m. gunaratne freecodecamp projects api" />
   <meta name="author" content="Ashen Gunaratne" />
   <title>Timestamp Microservice</title>
   <style type="text/css">
 
     body {
-      margin: 0px;
-    }
-
-    main {
       display: flex;
-      min-height: 100vh;
+      margin-top: 0px;
+      margin-bottom: 0px;
       align-items: center;
-      font-family: "Segoe UI", "Helvetica", "Arial";
+      min-height: 100vh;
     }
 
     h1 {
-      padding-bottom: 0.3em;
       border-bottom: 1px solid #eaecef;
-    }
-
-    h1, h4 {
-      margin: 5px;
     }
 
     a,
@@ -35,10 +27,27 @@
       text-decoration: none;
     }
 
+    ul {
+      padding-left: 20px;
+    }
+
     .container {
       width: 100%;
       margin-left: 5vw;
       margin-right: 5vw;
+      font-family: "Segoe UI", "Helvetica", "Arial";
+    }
+
+    .d-inline {
+      display: inline;
+    }
+
+    .mt-0 {
+      margin-top: 0px;
+    }
+
+    .mb-0 {
+      margin-bottom: 0px;
     }
 
     .text-muted {
@@ -52,11 +61,16 @@
   </style>
 </head>
 <body>
-  <main>
-    <div class="container">
-      <h1>Timestamp Microservice</h1>
-      <h4 class="text-muted">A <a href="//freecodecamp.org/" class="text-muted" rel="nofollow">freeCodeCamp</a> API Project</h4>
-    </div>
-  </main>
+  <div class="container">
+    <header>
+      <h1 class="mt-0 mb-0">Timestamp Microservice</h1>
+      <h4 class="mt-0 mb-0 text-muted">A <a href="//freecodecamp.org/" class="text-muted" rel="nofollow">freeCodeCamp</a> API Project</h4>
+    </header>
+    <main>
+      <h2>Endpoint</h2>
+      <h4 class="d-inline mt-0">/<span class="text-muted">:time</span></h4>
+      <p class="d-inline">Returns unix and natural language representation of <em class="text-muted">:time</em> in JSON</p>
+    </main>
+  </div>
 </body>
 </html>

@@ -1,6 +1,6 @@
 {
   "name": "timestamp-microservice",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A freeCodeCamp API Project - JSON parameterised time in unix and natural language",
   "main": "server.js",
   "scripts": {
@@ -24,7 +24,4 @@
     "url": "https://github.com/ashenm/timestamp-microservice/issues"
   },
   "homepage": "https://github.com/ashenm/timestamp-microservice#readme",
-  "dependencies": {
-    "express": "^4.16.2"
-  }
 }
